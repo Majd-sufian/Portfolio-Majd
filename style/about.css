@@ -1,0 +1,275 @@
+#about {
+	height: 100vh;
+	color: #616161;	
+    background: white;
+}
+
+
+section {
+    line-height: 18pt;
+    padding: 100px 0 130px 0;
+	height: 100vh;
+	min-width: 600px;
+	text-align: center;
+}
+
+section .container {
+    box-sizing: border-box;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 10px;
+    width: 100%;
+    background: #FFFFFF;
+}
+
+.flex {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header {
+    color: #444649;
+    font-size: 30pt;
+    position: relative;
+    font-family: 'Raleway', sans-serif;
+}
+
+.animated.slide-in-left {
+    animation: slideInLeft 0.75s ease both
+}
+
+.header-bar {
+    margin: 25px 0 100px 0;
+    background: #444649;
+    height: 4px;
+    width: 70px;
+}
+
+.flex.row {
+    flex-direction: row;
+}
+
+.flex {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.label-wrap > div {
+    padding: 0 15px;
+}
+
+.flex.row-gt-sm {
+    flex-direction: row;
+}
+
+.bullet-wrap {
+    height: 230px;
+    justify-content: flex-start;
+    margin: 0;
+    padding: 0 10px;
+}
+
+.hex-wrap {
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+}
+
+.hexagon {
+  height: 100%;
+  width: calc(100% * 0.57735);
+  display: inline-block;
+  background: #44C2C9;
+}
+
+.hexagon:before {
+  position: absolute;
+  top: 0;
+  right: calc((100% / 2) - ((100% * 0.57735) / 2));
+  background-color: inherit;
+  height: inherit;
+  width: inherit;
+  content: '';
+  transform: rotateZ(60deg);
+}
+
+.hexagon:after {
+  position: absolute;
+  top: 0;
+  right: calc((100% / 2) - ((100% * 0.57735) / 2));
+  background-color: inherit;
+  height: inherit;
+  width: inherit;
+  content: '';
+  transform: rotateZ(-60deg);
+}
+
+.hexagon i {
+    color: white;
+    font-size: 40pt;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 20px;
+    z-index: 1;
+}
+
+.mdi {
+    display: inline-block;
+    font: normal normal normal 24px/1 "Material Design Icons";
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transform: translate(0, 0);
+}
+
+.bold {
+    font-family: "Raleway-bold";
+}
+
+.label {
+    margin: 15px 0 5px 0;
+    font-size: 18pt;
+    font-weight: 500;
+}
+
+.skills-wrapper {
+    margin: 50px 0 0 0;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.skills-wrapper > .flex:first-child {
+    padding: 0 50px 0 50px;
+}
+
+section .flex-50-gt-sm {
+    display: block;
+}
+
+.flex-50-gt-sm {
+    box-sizing: border-box;
+    -webkit-flex: 1 1 50%;
+    -ms-flex: 1 1 50%;
+    flex: 1 1 50%;
+    max-height: 100%;
+    max-width: 50%;
+    min-width:40%;
+}
+
+.skills-wrapper .me {
+    margin: 0;
+    height: 250px;
+}
+
+.hex-image {
+    width: 340px;
+    height: 300px;
+    background: transparent url("../img/me1.jpg") no-repeat; 
+    background-size: cover;
+    position: relative;
+    margin: 12px auto; /* centering */
+}
+/* Left shape */
+.hex-image:before {
+    content: "";
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    width: 0;
+    height: 3px;    
+    border-right: 85px solid transparent;
+    border-bottom: 150px solid white;
+    border-top: 150px solid white;
+}
+/* Right shape */
+.hex-image:after {
+    content: "";
+    position: absolute;
+    top: -1px;
+    right: -1px;
+    width: 0;
+    height: 3px;    
+    border-left: 85px solid transparent;
+    border-bottom: 150px solid white;
+    border-top: 150px solid white;
+}
+
+.something p {
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  right: 46px;
+  font-size: xx-large;
+}
+
+.word {
+  position: absolute;
+  width: 220px;
+  opacity: 0;
+}
+
+.letter {
+  display: inline-block;
+  position: relative;
+  float: left;
+  transform: translateZ(25px);
+  transform-origin: 50% 50% 25px;
+}
+
+.letter.out {
+  transform: rotateX(90deg);
+  transition: transform 0.32s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+.letter.behind {
+  transform: rotateX(-90deg);
+}
+
+.letter.in {
+  transform: rotateX(0deg);
+  transition: transform 0.38s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.wisteria {
+  color: #8e44ad;
+}
+
+.belize {
+  color: #2980b9;
+}
+
+.pomegranate {
+  color: #c0392b;
+}
+
+.green {
+  color: #16a085;
+}
+
+.midnight {
+  color: #40e0d0;
+}
+
+
+table {
+  width: 100%;
+  font-size: x-large;
+}
+
+td, th {
+  border: 1px red #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+td i {
+  color: #44C2C9;
+}
