@@ -14,48 +14,48 @@ section .container {
     width: 100%;
 }
 
-.card {
-    background: url('https://images.unsplash.com/photo-1572177812156-58036aae439c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80') center center/cover;
-	width: 390px;
-	height: 300px;
-	max-width: 100%;
-    transition: opacity 0.5s;
+/*#portfolio {
+	padding-top: 400px;
+	background: red;
+	max-height: 100vh;
+}*/
+
+.container-1 {
+  position: relative;
+  width: 33%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+}
+
+.container-1:hover .overlay {
+  bottom: 0;
+  height: 100%;
 }
 
 .text {
-    color: #1b242f;
-    opacity: 0;
-    text-align: center;
-    transition: all 0.3s ease-in-out;
-    z-index: 2;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 100%;
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
-
-.button {
-    bottom: 0;
-    left: 0;
-    position: absolute;
-    right: 0;
-    border: 2px solid #e31b6d;
-    font-size: 13pt;
-    margin: 0 auto;
-    padding: 7px 0;
-    width: 170px;
-    color: #1b242f;
-    opacity: 0;
-    text-align: center;
-    transition: all 0.3s ease-in-out;
-    z-index: 2
-    box-sizing: inherit;
-    cursor: pointer;
-    display: inline-block;
-}
-
-#project:hover .text {
-	opacity: 1;
-}
-
-

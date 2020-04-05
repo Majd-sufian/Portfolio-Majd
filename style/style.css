@@ -1,7 +1,12 @@
 html {
 	width: 100%;
-	background: black;
+	/*background: black;*/
   scroll-behavior: smooth;
+}
+
+@media screen and (max-height: 600px)
+body {
+    font-size: 12pt;
 }
 
 ::-webkit-scrollbar {
