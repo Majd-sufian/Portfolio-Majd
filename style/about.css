@@ -6,8 +6,8 @@
 
 
 section {
-    line-height: 18pt;
-    padding: 100px 0 130px 0;
+  line-height: 18pt;
+  padding: 100px 0 130px 0;
 	height: 100vh;
 	min-width: 600px;
 	text-align: center;
@@ -161,7 +161,7 @@ section .flex-50-gt-sm {
     flex: 1 1 50%;
     max-height: 100%;
     max-width: 50%;
-    min-width:40%;
+    /*min-width:40%;*/
 }
 
 .skills-wrapper .me {
@@ -272,4 +272,12 @@ td, th {
 
 td i {
   color: #44C2C9;
+}
+
+.scroll-down {
+  height: 100px;
+}
+
+.scroll-down i {
+  font-size: -webkit-xxx-large;
 }
