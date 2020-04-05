@@ -14,8 +14,6 @@ section .container {
     width: 100%;
 }
 
-
-
 .card {
     background: url('https://images.unsplash.com/photo-1572177812156-58036aae439c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80') center center/cover;
 	width: 390px;
@@ -36,7 +34,7 @@ section .container {
     width: 100%;
 }
 
-#gallery .button {
+.button {
     bottom: 0;
     left: 0;
     position: absolute;
@@ -55,3 +53,9 @@ section .container {
     cursor: pointer;
     display: inline-block;
 }
+
+#project:hover .text {
+	opacity: 1;
+}
+
+

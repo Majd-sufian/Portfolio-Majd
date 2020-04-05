@@ -38,4 +38,4 @@ var obj = [
   "added_date":"1581461442206"}
 ]
 
-obj.forEach(project => console.log(project.name));
+// obj.forEach(project => console.log(project.name));
