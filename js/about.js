@@ -51,7 +51,7 @@ function splitLetters(word) {
 }
 
 changeWord();
-setInterval(changeWord, 4000);
+setInterval(changeWord, 3000);
 
 const changeColor = () => {
 let newColor = document.getElementById("change-color");
@@ -62,4 +62,14 @@ let color = colors[getrandomColor]
   newColor.style.color = color
 }
 
+const changeColorTwo = () => {
+let newColor = document.getElementById("change-color-2");
+let colors = ['#363062', '#00a8cc', '#000000', '#c02739', '#192965', '#ff7315', '#ffd800']
+let getrandomColor = Math.floor(Math.random() * colors.length);
+let color = colors[getrandomColor]
+
+  newColor.style.color = color
+}
+
 setInterval(changeColor, 2000)
+setInterval(changeColorTwo, 2000)

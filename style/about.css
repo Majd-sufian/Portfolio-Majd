@@ -1,16 +1,17 @@
 #about {
-	height: 125vh;
+	height: 100vh;
 	color: #616161;	
-  /*background: red;*/
+    background: white;
 }
 
-  section {
-    line-height: 18pt;
-    padding: 100px 0 130px 0;
-  	height: 100vh;
-  	min-width: 600px;
-  	text-align: center;
-  }
+
+section {
+  line-height: 18pt;
+  padding: 100px 0 130px 0;
+	height: 100vh;
+	min-width: 600px;
+	text-align: center;
+}
 
 section .container {
     box-sizing: border-box;
