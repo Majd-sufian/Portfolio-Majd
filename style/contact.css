@@ -1,0 +1,136 @@
+section:nth-of-type(3) {
+    background: #252934;
+    color: #fff;
+    padding-top: 175px;
+    height: 440px;
+}
+
+@media screen and (min-width: 600px)
+section .container {
+    padding: 0 10px;
+}
+
+section .container {
+    box-sizing: border-box;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 10px;
+    width: 100%;
+}
+
+section:nth-of-type(3) .header {
+    color: #fff;
+    font-size: 30pt;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+
+section:nth-of-type(3) .header-bar {
+    background: #fff;
+    margin: 25px 0 40px 0;
+    width: 110px;
+    height: 4px;
+}
+
+section:nth-of-type(3) .highlight {
+    color: #04c2c9;
+    font-weight: normal;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 40px;
+}
+
+@media screen and (min-width: 600px)
+section:nth-of-type(3) form {
+    min-width: 500px;
+    margin: 40px auto 0 auto;
+}
+
+section:nth-of-type(3) input[type=text], section:nth-of-type(3) input[type=email], section:nth-of-type(3) textarea {
+    background: #1e242c;
+    border: 0;
+    box-sizing: border-box;
+    color: #fff;
+    display: block;
+    font-size: 12pt;
+    margin-bottom: 3px;
+    outline: none;
+    padding: 10px 15px;
+    width: 550px;
+}
+
+section:nth-of-type(3) textarea {
+    margin-bottom: 5px;
+    min-height: 150px;
+}
+
+section:nth-of-type(3) .button {
+    background: transparent;
+    color: #fff;
+    float: right;
+    font-size: 12pt;
+    margin: 5px 0 0 0;
+    outline: 0;
+    padding: 10px 30px;
+    border: 2px solid #fff;
+    box-sizing: inherit;
+    cursor: pointer;
+    display: inline-block;
+    transition: 0.5s;
+}
+
+
+section:nth-of-type(3) .button:hover {
+    background: #44C1C8;
+    color: white;
+    border: 2px solid #44C1C8;
+}
+
+.footer {
+    background: #1b242f;
+    padding: 64px 0 50px 0;
+    position: relative;
+    text-align: center;
+} 
+
+.footnote {
+	color: #8f9aa7;
+    font-size: 10pt;
+    margin-top: 35px;
+    opacity: 0.7;
+    font-family: 'Raleway', sans-serif;
+}    
+
+footer .fa-angle-double-up {
+    background: #e31b6d;
+    color: white;
+    cursor: pointer;
+    font-size: 30pt;
+    height: 50px;
+    left: 0;
+    line-height: 40pt;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+    top: -25px;
+    transition: background 0.5s;
+    width: 47px;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+footer .icon-wrap .icon {
+    background: #262f38;
+    color: white;
+    cursor: pointer;
+    font-size: 18pt;
+    height: 55px;
+    margin: 0 15px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    transition: background 0.3s, color 0.3s, box-shadow 0.3s, transform 0.3s;
+    width: 55px;
+}
