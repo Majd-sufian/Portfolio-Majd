@@ -178,17 +178,6 @@ button:hover .button-text {
   color: #fff;
 }
 
-.label {
-  margin: 15px 0 5px 0;
-  font-size: 18pt;
-  font-weight: 500;
-}
-
-.bold {
-  font-family: "Raleway-bold";
-}
-
-
 .portfolio-heder-bar {
   width: 200px;
   margin-right: auto !important;
