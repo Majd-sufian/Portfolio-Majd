@@ -87,6 +87,7 @@ section .container {
   transition: all 0.3s ease-in-out;
 }
 
-#Twitter-clone, #Weather-App, #Meditation-App {
+#Twitter-clone, #Weather-App, #Meditation-App, #Plan-Your-Night,
+#Beatbox-App, #Delicious-cocktails {
   height: 260px;
 }
