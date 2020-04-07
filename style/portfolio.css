@@ -86,3 +86,7 @@ section .container {
   color: white;
   transition: all 0.3s ease-in-out;
 }
+
+#Twitter-clone, #Weather-App, #Meditation-App {
+  height: 260px;
+}
