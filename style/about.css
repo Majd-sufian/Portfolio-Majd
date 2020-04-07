@@ -166,6 +166,11 @@ section .container {
   font-family: "Raleway";
 }
 
+.features {
+  font-family: "Raleway";
+  
+}
+
 
 .skills-wrapper {
   margin: 50px 0 0 0;
