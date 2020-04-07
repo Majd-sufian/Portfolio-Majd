@@ -1,12 +1,11 @@
 section:nth-of-type(3) {
     background: #252934;
     color: #fff;
-    padding-top: 175px;
+    /*padding-top: 175px;*/
     height: 440px;
 }
 
-@media screen and (min-width: 600px)
-section .container {
+@media screen and (min-width: 600px) section .container {
     padding: 0 10px;
 }
 
@@ -39,13 +38,14 @@ section:nth-of-type(3) .highlight {
     margin-bottom: 40px;
 }
 
-@media screen and (min-width: 600px)
-section:nth-of-type(3) form {
+@media screen and (min-width: 600px) section:nth-of-type(3) form {
     min-width: 500px;
     margin: 40px auto 0 auto;
 }
 
-section:nth-of-type(3) input[type=text], section:nth-of-type(3) input[type=email], section:nth-of-type(3) textarea {
+section:nth-of-type(3) input[type=text],
+section:nth-of-type(3) input[type=email],
+section:nth-of-type(3) textarea {
     background: #1e242c;
     border: 0;
     box-sizing: border-box;
@@ -90,15 +90,15 @@ section:nth-of-type(3) .button:hover {
     padding: 64px 0 50px 0;
     position: relative;
     text-align: center;
-} 
+}
 
 .footnote {
-	color: #8f9aa7;
+    color: #8f9aa7;
     font-size: 10pt;
     margin-top: 35px;
     opacity: 0.7;
     font-family: 'Raleway', sans-serif;
-}    
+}
 
 footer .fa-angle-double-up {
     background: #e31b6d;

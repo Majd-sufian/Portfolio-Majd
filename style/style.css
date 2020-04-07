@@ -1,81 +1,88 @@
-@import "about.css"; 
-@import "portfolio.css"; 
-@import "contact.css"; 
-@import "intro.css"; 
+@import "about.css";
+@import "portfolio.css";
+@import "contact.css";
+@import "intro.css";
+
 
 html {
-	width: 100%;
-	/*background: black;*/
+  width: 100%;
+  /*background: black;*/
   scroll-behavior: smooth;
 }
 
+body {
+  margin: 0px;
+}
 
 ::-webkit-scrollbar {
-width: 14px;
+  width: 14px;
 }
+
 ::-webkit-scrollbar-track {
-background-color: black;
-border-radius: 10px;
+  background-color: black;
+  border-radius: 10px;
 }
+
 ::-webkit-scrollbar-thumb {
-background-color: #E54B6E;
-border-radius: 10px;
+  background-color: #E54B6E;
+  border-radius: 10px;
 }
+
 ::-webkit-scrollbar-thumb:hover {
-background-color: #E54B6E;
-border-radius: 10px;
+  background-color: #E54B6E;
+  border-radius: 10px;
 }
 
 
 .large-header {
-	position: relative;
-	width: 100%;
-	max-height: 100vh;
-	/*max-height: 50vh;*/
-	background: #333;
-	overflow: hidden;
-	background-size: cover;
-	background-position: center;
-	z-index: 1;
+  position: relative;
+  width: 100%;
+  max-height: 100vh;
+  /*max-height: 50vh;*/
+  background: #333;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  z-index: 1;
 }
 
 #large-header {
-	background-image: url('https://www.marcoguglie.it/Codepen/AnimatedHeaderBg/demo-1/img/demo-1-bg.jpg');
+  background-image: url('https://www.marcoguglie.it/Codepen/AnimatedHeaderBg/demo-1/img/demo-1-bg.jpg');
 }
 
 .main-title {
-	position: absolute;
-	margin: 0;
-	padding: 0;
-	color: #f9f1e9;
-	text-align: center;
-	top: 50%;
-	left: 50%;
-	-webkit-transform: translate3d(-50%,-50%,0);
-	transform: translate3d(-50%,-50%,0);
-  font-size: 32pt;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  color: #f9f1e9;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate3d(-50%, -50%, 0);
+  transform: translate3d(-50%, -50%, 0);
+  font-size: 2.5em;
   line-height: 36pt;
   word-spacing: 5px;
   font-family: 'Rubik', sans-serif;
 }
 
 .demo-1 .main-title {
-	text-transform: uppercase;
-	font-size: 4.2em;
-	letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-size: 4.2em;
+  letter-spacing: 0.1em;
 }
 
 .main-title .thin {
-	font-weight: 200;
-	word-spacing: -11px;
+  font-weight: 200;
+  word-spacing: -11px;
 }
 
-@media only screen and (max-width : 768px) {
+/*@media only screen and (max-width : 768px) {
 	.demo-1 .main-title {
 		font-size: 3em;
 	}
 }
-
+*/
 
 button {
   position: relative;
@@ -90,10 +97,12 @@ button {
   font-size: 17px;
   font-family: inherit;
 }
+
 button.learn-more {
   width: 12rem;
   height: auto;
 }
+
 button.learn-more .circle {
   -webkit-transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
   transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
@@ -105,6 +114,7 @@ button.learn-more .circle {
   background: #282936;
   border-radius: 1.625rem;
 }
+
 button.learn-more .circle .icon {
   -webkit-transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
   transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
@@ -114,6 +124,7 @@ button.learn-more .circle .icon {
   margin: auto;
   background: #fff;
 }
+
 button.learn-more .circle .icon.arrow {
   -webkit-transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
   transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
@@ -122,6 +133,7 @@ button.learn-more .circle .icon.arrow {
   height: 0.125rem;
   background: none;
 }
+
 button.learn-more .circle .icon.arrow::before {
   position: absolute;
   content: "";
@@ -132,8 +144,9 @@ button.learn-more .circle .icon.arrow::before {
   border-top: 0.125rem solid #fff;
   border-right: 0.125rem solid #fff;
   -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  transform: rotate(45deg);
 }
+
 button.learn-more .button-text {
   -webkit-transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
   transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
@@ -150,24 +163,165 @@ button.learn-more .button-text {
   text-align: center;
   text-transform: uppercase;
 }
+
 button:hover .circle {
   width: 100%;
 }
+
 button:hover .circle .icon.arrow {
   background: #fff;
   -webkit-transform: translate(1rem, 0);
-          transform: translate(1rem, 0);
+  transform: translate(1rem, 0);
 }
+
 button:hover .button-text {
   color: #fff;
 }
 
 .label {
-    margin: 15px 0 5px 0;
-    font-size: 18pt;
-    font-weight: 500;
+  margin: 15px 0 5px 0;
+  font-size: 18pt;
+  font-weight: 500;
 }
 
 .bold {
-    font-family: "Raleway-bold";
+  font-family: "Raleway-bold";
+}
+
+
+.portfolio-heder-bar {
+  width: 200px;
+  margin-right: auto !important;
+  margin-left: auto !important;
+}
+
+
+
+
+/*1 */
+@media screen and (max-width: 992px) {
+  section {
+    padding: 50px 0px 50px 0px;
+  }
+
+}
+
+
+
+
+/*2*/
+@media screen and (max-width: 768px) {
+
+  .container-1 {
+    width: 50%;
+  }
+
+  .header-bar {
+
+    margin: 25px 0 50px 0;
+  }
+
+  .main-title {
+    font-size: 3em;
+
+  }
+
+  .about-us-card {
+    flex-direction: column !important;
+  }
+
+
+  .skills-wrapper.flex.row-gt-sm {
+    flex-direction: column !important;
+  }
+
+  .flex-50-gt-sm {
+    max-width: 100%;
+    margin: auto;
+  }
+
+  #demo-canvas {
+    width: 100%;
+  }
+
+  section:nth-of-type(3) input[type=text],
+  section:nth-of-type(3) input[type=email],
+  section:nth-of-type(3) textarea {
+    width: 420px;
+  }
+
+
+}
+
+/*3*/
+@media screen and (max-width: 425px) {
+
+  .hex-image {
+    width: 200px;
+    height: 150px;
+    margin: auto;
+  }
+
+  .hex-image:before {
+    border-right: 70px solid transparent;
+    border-bottom: 80px solid white;
+    border-top: 70px solid white;
+  }
+
+  .hex-image:after {
+    border-right: 0px solid transparent;
+    border-bottom: 80px solid white;
+    border-top: 70px solid white;
+  }
+
+  .something p {
+    font-size: large;
+  }
+
+  .something .word {
+    width: 100px;
+  }
+
+  .container-1 {
+    width: 100%;
+  }
+
+  section:nth-of-type(3) input[type=text],
+  section:nth-of-type(3) input[type=email],
+  section:nth-of-type(3) textarea {
+    width: 100%;
+  }
+
+  footer .icon-wrap .icon {
+    width: 40px;
+    height: 45px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+
+  .main-title {
+    font-size: 1.5em;
+
+  }
+
+
+  footer .icon-wrap .icon {
+    width: 30px;
+    height: 35px;
+  }
+}
+
+
+
+@media screen and (max-width: 320px) {
+
+  .main-title {
+    font-size: 1.4em;
+  }
+
+  .bullet-wrap {
+    height: 260px;
+  }
+
 }
