@@ -208,8 +208,7 @@ section .flex-50-gt-sm {
   background-size: cover;
   position: relative;
   margin: 12px auto;
-
-
+    animation: animatedBackground 40s linear infinite;
 }
 
 /* Left shape */

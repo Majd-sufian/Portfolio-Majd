@@ -73,3 +73,4 @@ let color = colors[getrandomColor]
 
 setInterval(changeColor, 2000)
 setInterval(changeColorTwo, 2000)
+
