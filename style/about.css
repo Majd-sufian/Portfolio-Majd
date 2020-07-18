@@ -202,8 +202,8 @@ section .flex-50-gt-sm {
 }
 
 .hex-image {
-  width: 225px;
-  height: 300px;
+  width: 330px;
+  height: 400px;
   background: transparent url("../img/IMG-8607.JPG") no-repeat;
   background-size: cover;
   /*position: relative;*/
